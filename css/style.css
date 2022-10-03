@@ -46,3 +46,17 @@
     padding: 0.5rem 1rem;
     border-radius: 5rem;
 }
+.nav-bar i{
+    color: white;
+    font-size: 2rem;
+}
+@media screen and (max-width: 810px) {
+    .list-nav{
+        display: none;
+    }
+}
+@media screen and (min-width: 811px) {
+    .nav-bar i{
+        display: none;
+    }
+}

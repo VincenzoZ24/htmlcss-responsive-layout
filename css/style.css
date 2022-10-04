@@ -65,11 +65,18 @@ html {
     .list-nav {
         display: none;
     }
-    .contain-card-1{
+
+    .contain-card-1 {
         flex-wrap: wrap;
     }
-    .contain-purple{
+
+    .contain-purple {
         flex-wrap: wrap;
+    }
+
+    .card-benefit {
+        flex: 1 1 48%;
+
     }
 }
 
@@ -147,133 +154,194 @@ html {
     color: #0084FD;
     padding-top: 1rem;
 }
-.container-purple-section{
+
+.container-purple-section {
     background-color: #9792E4;
     margin-bottom: 2rem;
 }
-.contain-purple{
+
+.contain-purple {
     max-width: 1000px;
     display: flex;
     margin: auto;
     padding: 1rem 1rem;
-    
+
 }
 
-.purple-left img{
+.purple-left img {
     width: 100%;
 }
-.purple-right img{
+
+.purple-right img {
     width: 200px;
     display: block;
     margin: auto;
 }
-.purple-left{
+
+.purple-left {
     margin-right: 2rem;
     margin-bottom: 2rem;
 }
-.purple-right{
+
+.purple-right {
     background-color: white;
     border-radius: 3rem;
-    padding:1rem;
+    padding: 1rem;
     align-self: flex-end;
 }
-.purple-right p{
+
+.purple-right p {
     text-align: center;
 }
+
 @media screen and (max-width: 580px) {
-    .card-1{
+    .card-1 {
         flex: 0 1 100%;
     }
-    .card-2{
+
+    .card-2 {
         flex: 0 1 100%;
     }
-    .card-testimonial{
+
+    .card-testimonial {
         flex-direction: column;
     }
-    .img-testimonial{
+
+    .img-testimonial {
         align-self: center;
     }
-    
+
+    .card-benefit {
+        flex: 1 1 100%;
+
+    }
+    .container-about-us{
+       flex-direction: column;
+    }
 }
-.container-testimonials{
+
+.container-testimonials {
     max-width: 1100px;
     margin: auto;
     padding: 1rem;
 }
-.container-testimonials h4{
+
+.container-testimonials h4 {
     text-align: center;
     margin-bottom: 1rem;
 
 }
-.container-testimonials h2{
+
+.container-testimonials h2 {
     text-align: center;
     margin-bottom: 1rem;
 }
-.container-testimonials p{
+
+.container-testimonials p {
     text-align: center;
     margin-bottom: 1rem;
 }
-.card-testimonial{
+
+.card-testimonial {
     background-color: #9792E4;
     color: white;
     border-radius: 2rem;
-    padding: 1rem;margin-bottom: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
     display: flex;
     gap: 1rem;
 }
-.card-testimonial p{
+
+.card-testimonial p {
     align-self: center;
 }
 
-.img-testimonial img{
+.img-testimonial img {
     object-fit: cover;
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    display: block;    
+    display: block;
 }
-.main-section-benefits{
+
+.main-section-benefits {
     background-color: #9792E4;
+    margin-bottom: 3rem;
 }
-.benefits{
+
+.benefits {
     max-width: 1100px;
     margin: auto;
     padding: 1rem;
     margin-top: 5rem;
-   
+
 }
-.benefits h2{
+
+.benefits h2 {
     text-align: center;
     margin-bottom: 2rem;
 }
-.cards-benefits{
-    width: 100%;
+
+.cards-benefits {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
 }
-.card-benefit .p-benefit{
+
+.card-benefit .p-benefit {
     text-align: initial;
     margin-bottom: 0.5rem;
 }
-.card-benefit{
-    width: calc((100% - 2rem / 3 ));
+
+.card-benefit {
+    width: calc((100% - 2rem) / 3);
     background-color: white;
     padding: 2rem 1rem;
     border-radius: 2rem;
     color: #9792E4;
 }
-.number{
+
+.number {
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 1rem;
 }
-.card-benefit h3{
+
+.card-benefit h3 {
     margin-bottom: 1rem;
 }
-.card-benefit button{
+
+.card-benefit button {
     border: none;
     background-color: #9792E4;
     color: white;
     padding: 0.5rem 3rem;
     border-radius: 2rem;
+}
+
+.container-about-us {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 1rem;
+    display: flex;
+}
+
+.img-about {
+    display: flex;
+    flex-direction: column;
+}
+.testo-about{
+    margin-right: 3rem;
+}
+.testo-about p{
+    margin-bottom: 3rem;
+}
+.container-about-us img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-bottom: 2rem;
+    align-self: center;
+    border-radius: 50%;
+
 }

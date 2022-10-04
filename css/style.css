@@ -65,6 +65,9 @@ html {
     .list-nav {
         display: none;
     }
+    .contain-card-1{
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (min-width: 811px) {
@@ -84,16 +87,15 @@ html {
 
 .contain-card-1 {
     display: flex;
-
-
 }
 
 .container-main {
     margin-bottom: 2rem;
+    padding: 0 1rem;
 }
 
 .card-1 {
-    flex: 1 1 680px;
+    flex: 0 1 calc((100% - 1rem) / 3 * 2);
     background-color: #B5DDFF;
     padding: 0 2rem;
     border-radius: 2rem;
@@ -113,7 +115,8 @@ html {
 }
 
 .img-card img {
-    width: 100%;
+    width: 200px;
+    display: block;
 }
 
 .btn-app-store {
@@ -130,7 +133,7 @@ html {
 }
 
 .card-2 {
-    flex: 1 1 307px;
+    flex: 0 1 calc((100% - 2rem) / 3);
     background-color: #B5DDFF;
     border-radius: 2rem;
     text-align: center;
@@ -148,6 +151,7 @@ html {
     max-width: 1000px;
     display: flex;
     margin: auto;
+    padding: 3rem 6rem;
     
 }
 
@@ -156,4 +160,22 @@ html {
 }
 .purple-right img{
     width: 200px;
+    
+}
+.purple-right{
+    background-color: white;
+    border-radius: 3rem;
+    padding: 1rem;
+}
+.purple-right p{
+    text-align: center;
+}
+@media screen and (max-width: 580px) {
+    .card-1{
+        flex: 0 1 100%;
+    }
+    .card-2{
+        flex: 0 1 100%;
+    }
+    
 }

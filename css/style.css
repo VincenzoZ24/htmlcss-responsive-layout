@@ -149,6 +149,7 @@ html {
 }
 .container-purple-section{
     background-color: #9792E4;
+    margin-bottom: 2rem;
 }
 .contain-purple{
     max-width: 1000px;
@@ -185,5 +186,34 @@ html {
     .card-2{
         flex: 0 1 100%;
     }
+    
+}
+.container-testimonials{
+    max-width: 1100px;
+    margin: auto;
+}
+.container-testimonials h4{
+    text-align: center;
+
+}
+.container-testimonials h2{
+    text-align: center;
+}
+.container-testimonials p{
+    text-align: center;
+}
+.card-testimonial{
+    display: flex;
+}
+.card-testimonial p{
+    align-self: center;
+}
+
+.img-testimonial img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: block;
     
 }

@@ -68,6 +68,9 @@ html {
     .contain-card-1{
         flex-wrap: wrap;
     }
+    .contain-purple{
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (min-width: 811px) {
@@ -156,10 +159,10 @@ html {
 }
 
 .purple-left img{
-    width: 200px;
+    width: 100%;
 }
 .purple-right img{
-    width: 200px;
+    width: 100%;
     
 }
 .purple-right{
